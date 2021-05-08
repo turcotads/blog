@@ -1,0 +1,18 @@
+{
+    "editor.fontSize": 15,
+
+    "[php]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "junstyle.php-cs-fixer",
+        "files.encoding": "utf8",
+    },
+
+    "phpcs.standard": "PSR2",
+    "php-cs-fixer.config": ".php_cs",
+
+    "cSpell.language": "en,pt-BR",
+    "cSpell.userWords": ["fabioperes", "phpcs", "onsave", "codesniffer", "junstyle"],
+    "cSpell.ignorePaths": [
+        ".php_cs"
+    ],
+}
